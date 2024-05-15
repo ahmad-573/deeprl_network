@@ -40,7 +40,7 @@ def parse_args():
     return args
 
 
-def init_env(config, port=0):
+def init_env(config, port=1024):
     scenario = config.get('scenario')
     if scenario.startswith('atsc'):
         if scenario.endswith('large_grid'):
