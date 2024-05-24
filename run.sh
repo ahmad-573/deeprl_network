@@ -1,1 +1,1 @@
-python3 main.py --base-dir ./ train --config-dir ./config/config_ma2c_nc_catchup.ini 
+python3 main.py --base-dir ./exp2 train --config-dir ./config/config_ma2c_nc_net.ini 
